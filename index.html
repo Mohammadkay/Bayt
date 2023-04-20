@@ -111,18 +111,18 @@
       </header>
       <!-- The end of header  -->
 
- <!-- start hero section -->
+      <!-- start hero section -->
       <section class="hero">
         <!-- Hero contain button and background-img 
         Size cover and i use margin for the button to put
       it in the right place  -->
         <button>Talentera</button>
       </section>
-<!-- the end of hero section -- >
+      <!-- the end of hero section -- >
 
 <!-- start our team section -->
       <section class="team" id="Our-Team">
-      <!-- this section i use flex 
+        <!-- this section i use flex 
       and the flex column to display the headings
       and the pictures div under each other
       -->
@@ -159,10 +159,10 @@
             <h4>Fixer</h4>
           </div>
         </div>
-      </section>  
+      </section>
       <!-- end of our team section  -->
 
-        <!--work section in this section i use grid to divide
+      <!--work section in this section i use grid to divide
         the section into 4 parts (column)
         and i give the whole section margin top
         to be like the picture  
@@ -252,10 +252,28 @@
           ></i
         ></span>
       </section>
-  <!-- End of our work section  -->
+      <!-- End of our work section  -->
+
+      <!-- Contact Us section start -->
       <section class="contact" id="Contact-Us">
+        <!-- here the Contact us section  contain 2 part 
+        next to each other so i use flex to this section and
+        space-between to add space between them
+        and align center to put the parts in center
+        both of them take flex and flex column to be like 
+        the pic 
+          -->
         <div class="info">
+          <!-- this part contain the info like email,location
+          and phone number
+        this section flex-grow=2 and margin
+        for all siblings and font-weight 400
+       -->
           <h1>Contact Us</h1>
+          <!-- in h1 i give it border bottom 
+          and i give it width fit content to make the  
+        border width start in the first letter and
+        end in last latter   -->
           <h3>Address</h3>
           <p>Swing by for a cup of a coffee, or whatever.</p>
           <p>
@@ -271,27 +289,54 @@
             >text@text.com
           </p>
         </div>
+        <!-- here the mi give this part flex-grow=3 
+        to make it width more than the first part 
+      and i give the font-weight==500 -->
         <div class="massege">
           <form action="#">
-            <label for="Name">Name</label>
-            <input type="text" id="Name" />
+            <!-- here i use different font-family
+            to make the I in the check box label
+            like the I in the picture
+            and i dived it into 3 input with label and div
+            and it take flex column 
+            i use div for check box and submit
+            because they in the same line  
+             -->
 
+            <label for="Name">Name</label>
+            <!-- i give all label padding 13 px  -->
+            <input type="text" id="Name" />
+            <!--  all input take padding 10px and 
+              without border from right ,top and left 
+            just in bottom  -->
             <label for="Emai">Email</label>
             <input type="text" id="Email" />
             <label for="Message">Message</label>
             <input type="text" id="Message" />
             <div>
+              <!-- in this div 
+                i divide it to 2 div the first one 
+                for checkbox and  its label 
+                and the second one for send button  
+                i use flex row  and
+                i use align center to make submit button
+                 and checkbox in same line space between to 
+                put t  -->
               <div>
-                <input type="checkbox" id="like" />
+                <input type="checkbox" id="like" checked />
                 <label style="padding: 0" for="like">&nbsp; I Like it!</label>
               </div>
-
+                <!-- i give it grow=0.04 to give it
+                   suitable width and black background
+                  and white color margin top for the button
+                to be far from the border of the input  -->
               <input class="submit" type="submit" value="Send" />
             </div>
           </form>
         </div>
       </section>
       <footer>
+        
         <div class="return-up">
           <div>
             <img

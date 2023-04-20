@@ -352,6 +352,7 @@ header a:hover {
 
 .contact .info > * {
   margin: 10px;
+  font-weight: 500;
 }
 .contact .info h1 {
   border-bottom: #009688 solid 6px;
@@ -360,7 +361,7 @@ header a:hover {
 
 .contact .massege {
   flex-grow: 3;
-  font-weight: 600;
+  font-weight: 500;
 }
 .contact div form {
   font-family: "Anuphan", sans-serif;
@@ -402,7 +403,7 @@ header a:hover {
     grid-template-rows: 5vh 55vh auto 1fr auto 20vh;
   }
 }
-/**/
+/*End of Contact*/
 /**/
 footer {
   margin-top: 24px;
