@@ -89,7 +89,7 @@
             <li class="dropdown">
               <span
                 >DropDown
-                <!--we make nested list for drop down menue   -->
+                <!-- nested list for drop down menu   -->
                 <i
                   class="fa-sharp fa-solid fa-caret-down fa-lg"
                   style="color: #ffffff"
@@ -109,23 +109,43 @@
           ></i>
         </div>
       </header>
+      <!-- The end of header  -->
 
+ <!-- start hero section -->
       <section class="hero">
+        <!-- Hero contain button and background-img 
+        Size cover and i use margin for the button to put
+      it in the right place  -->
         <button>Talentera</button>
       </section>
+<!-- the end of hero section -- >
 
+<!-- start our team section -->
       <section class="team" id="Our-Team">
+      <!-- this section i use flex 
+      and the flex column to display the headings
+      and the pictures div under each other
+      -->
         <h1>OUR TEAM</h1>
         <h4>Meet the team -our office rate:</h4>
         <div class="companyteam">
+          <!-- this div contain the company team info 
+              this div is flex(to controls the div ) 
+              flex-wrap(to make this section responsive ) 
+              justify-content: space-around(to put space between divs and 
+              between the page 
+              and for h4 i put font-weight =400  )
+          -->
           <div>
+            <!-- here we put width and height to img  and 
+            font-weight to h2 =400-->
             <img src="./img/man1.jpg" />
-            <h1>Islam ALZatary</h1>
+            <h2>Islam ALZatary</h2>
             <h4>Web Desinger</h4>
           </div>
           <div>
             <img src="./img/man2.jpg" />
-            <h1>Tayseer Emam</h1>
+            <h2>Tayseer Emam</h2>
             <h4>Support</h4>
           </div>
           <div>
@@ -139,10 +159,20 @@
             <h4>Fixer</h4>
           </div>
         </div>
-      </section>
+      </section>  
+      <!-- end of our team section  -->
 
+        <!--work section in this section i use grid to divide
+        the section into 4 parts (column)
+        and i give the whole section margin top
+        to be like the picture  
+        and i use media query to make this section
+         flex-colum when the width==770px 
+
+       -->
       <section class="work" id="Our-Work">
         <article class="worktext">
+          <!-- here i give h1 size and font weight  -->
           <h1>Our work</h1>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -153,8 +183,19 @@
           culpa qui officia deserunt mollit anim id est laborum..
         </article>
         <div class="work-card">
+          <!-- here we put the img and the text in div and
+          display it flex and direction column 
+           -->
           <img src="./img/customer1.png" alt="" />
+          <!-- i give the img height and width -->
           <div>
+            <!-- i use flex colum here to make the text 
+            take the full height 
+              i use justify content space around 
+            and i put gap 10px to make space between text
+            and padding to add space from left and top from the 
+            picture 
+          -->
             <h1>Customer 1</h1>
             <h2>Trade</h2>
             <h4>Blablabla</h4>
@@ -185,6 +226,9 @@
             <h4>Blablabla</h4>
           </div>
         </div>
+        <!-- here i add the pius icon and i put it in span
+        and i add to it background color and padding and the 
+      style to be in right place  -->
         <span
           style="
             display: flex;
@@ -208,7 +252,7 @@
           ></i
         ></span>
       </section>
-
+  <!-- End of our work section  -->
       <section class="contact" id="Contact-Us">
         <div class="info">
           <h1>Contact Us</h1>
